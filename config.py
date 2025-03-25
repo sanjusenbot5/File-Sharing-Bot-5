@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", "20342933"))
 API_HASH = os.environ.get("API_HASH", "9233e5deebe6abfc9ba297a9678851be")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "5539467127"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8035487404"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121:E5K7gxd89VR8maXs@cluster0.2w9yg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
@@ -28,8 +28,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[5539467127]
-    for x in (os.environ.get("ADMINS", "5539467127").split()):
+    ADMINS=[8035487404]
+    for x in (os.environ.get("ADMINS", "8035487404").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -67,7 +67,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5539467127)
+ADMINS.append(8035487404)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
